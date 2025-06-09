@@ -1,0 +1,16 @@
+{
+  "name": "website-file-management",
+  "version": "1.0.0",
+  "description": "A simple website for file management with Home, About Us, and Services pages.",
+  "main": "src/js/main.js",
+  "scripts": {
+    "build-css": "sass src/sass/style.scss src/css/style.css --no-source-map",
+    "watch-css": "sass --watch src/sass/style.scss:src/css/style.css"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "sass": "^1.32.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
